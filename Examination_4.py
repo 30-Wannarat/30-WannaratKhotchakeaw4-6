@@ -7,4 +7,10 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-weight = float(input())
+weight = float(input("น้ำหนัก : "))
+if weight <= 1 :
+ print(f"จ่าย 30 ")
+elif weight <= 5 : 
+ print(f"จ่าย 50")
+else : 
+ print(f"จ่าย 100 ")
