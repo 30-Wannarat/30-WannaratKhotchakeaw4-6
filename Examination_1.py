@@ -6,6 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-s1 = int(input())
-s2 = int(input())
-s3 = int(input())
+s1 = int(input("คะแนน :"))
+s2 = int(input("คะแนน : "))
+s3 = int(input("คะแนน :"))
+
+total = s1+s2+s3/3
+print("score1:{total}")
